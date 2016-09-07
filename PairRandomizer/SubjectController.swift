@@ -27,7 +27,7 @@ class SubjectController {
         fetchRequest.sortDescriptors = [sortDescriptor]
         
         do {
-            let subjectArray = try Stack.sharedStack.managedObjectContext.executeRequest(fetchRequest) as? [Subject]
+            let subjectArray = try Stack.sharedStack.managedObjectContext.executeFetchRequest(fetchRequest) as? [Subject]
             
             return subjectArray ?? [Subject]()
             

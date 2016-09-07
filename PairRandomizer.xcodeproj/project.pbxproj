@@ -21,6 +21,7 @@
 		FAA281FE1D7FA12900B70F13 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA281FA1D7FA12900B70F13 /* Subject.swift */; };
 		FAA282001D7FA4B200B70F13 /* SubjectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA281FF1D7FA4B200B70F13 /* SubjectController.swift */; };
 		FAA282041D7FA55000B70F13 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA282031D7FA55000B70F13 /* Stack.swift */; };
+		FAA282091D7FAB1000B70F13 /* StudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA282081D7FAB1000B70F13 /* StudentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		FAA281FA1D7FA12900B70F13 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		FAA281FF1D7FA4B200B70F13 /* SubjectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectController.swift; sourceTree = "<group>"; };
 		FAA282031D7FA55000B70F13 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		FAA282081D7FAB1000B70F13 /* StudentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				FAA281FF1D7FA4B200B70F13 /* SubjectController.swift */,
+				FAA282081D7FAB1000B70F13 /* StudentController.swift */,
 			);
 			name = "Model Controller";
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				FAA281C91D7F963F00B70F13 /* ViewController.swift in Sources */,
 				FAA281FE1D7FA12900B70F13 /* Subject.swift in Sources */,
 				FAA281C71D7F963F00B70F13 /* AppDelegate.swift in Sources */,
+				FAA282091D7FAB1000B70F13 /* StudentController.swift in Sources */,
 				FAA281FB1D7FA12900B70F13 /* Student+CoreDataProperties.swift in Sources */,
 				FAA281FC1D7FA12900B70F13 /* Student.swift in Sources */,
 				FAA282001D7FA4B200B70F13 /* SubjectController.swift in Sources */,
