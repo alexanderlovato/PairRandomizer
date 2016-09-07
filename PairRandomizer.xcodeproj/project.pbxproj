@@ -14,6 +14,11 @@
 		FAA281D11D7F963F00B70F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA281CF1D7F963F00B70F13 /* LaunchScreen.storyboard */; };
 		FAA281DC1D7F963F00B70F13 /* PairRandomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA281DB1D7F963F00B70F13 /* PairRandomizerTests.swift */; };
 		FAA281E71D7F963F00B70F13 /* PairRandomizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA281E61D7F963F00B70F13 /* PairRandomizerUITests.swift */; };
+		FAA281F61D7F9F0D00B70F13 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA281F41D7F9F0D00B70F13 /* Model.xcdatamodeld */; };
+		FAA281FB1D7FA12900B70F13 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA281F71D7FA12900B70F13 /* Student+CoreDataProperties.swift */; };
+		FAA281FC1D7FA12900B70F13 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA281F81D7FA12900B70F13 /* Student.swift */; };
+		FAA281FD1D7FA12900B70F13 /* Subject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA281F91D7FA12900B70F13 /* Subject+CoreDataProperties.swift */; };
+		FAA281FE1D7FA12900B70F13 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA281FA1D7FA12900B70F13 /* Subject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		FAA281E21D7F963F00B70F13 /* PairRandomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PairRandomizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA281E61D7F963F00B70F13 /* PairRandomizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairRandomizerUITests.swift; sourceTree = "<group>"; };
 		FAA281E81D7F963F00B70F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA281F51D7F9F0D00B70F13 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		FAA281F71D7FA12900B70F13 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FAA281F81D7FA12900B70F13 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		FAA281F91D7FA12900B70F13 /* Subject+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Subject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FAA281FA1D7FA12900B70F13 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +107,13 @@
 		FAA281C51D7F963F00B70F13 /* PairRandomizer */ = {
 			isa = PBXGroup;
 			children = (
+				FAA281F71D7FA12900B70F13 /* Student+CoreDataProperties.swift */,
+				FAA281F81D7FA12900B70F13 /* Student.swift */,
+				FAA281F91D7FA12900B70F13 /* Subject+CoreDataProperties.swift */,
+				FAA281FA1D7FA12900B70F13 /* Subject.swift */,
 				FAA281C61D7F963F00B70F13 /* AppDelegate.swift */,
 				FAA281C81D7F963F00B70F13 /* ViewController.swift */,
+				FAA281F41D7F9F0D00B70F13 /* Model.xcdatamodeld */,
 				FAA281CA1D7F963F00B70F13 /* Main.storyboard */,
 				FAA281CD1D7F963F00B70F13 /* Assets.xcassets */,
 				FAA281CF1D7F963F00B70F13 /* LaunchScreen.storyboard */,
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA281FD1D7FA12900B70F13 /* Subject+CoreDataProperties.swift in Sources */,
 				FAA281C91D7F963F00B70F13 /* ViewController.swift in Sources */,
+				FAA281FE1D7FA12900B70F13 /* Subject.swift in Sources */,
 				FAA281C71D7F963F00B70F13 /* AppDelegate.swift in Sources */,
+				FAA281FB1D7FA12900B70F13 /* Student+CoreDataProperties.swift in Sources */,
+				FAA281FC1D7FA12900B70F13 /* Student.swift in Sources */,
+				FAA281F61D7F9F0D00B70F13 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +502,7 @@
 				FAA281ED1D7F963F00B70F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA281EE1D7F963F00B70F13 /* Build configuration list for PBXNativeTarget "PairRandomizerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +511,7 @@
 				FAA281F01D7F963F00B70F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA281F11D7F963F00B70F13 /* Build configuration list for PBXNativeTarget "PairRandomizerUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,8 +520,22 @@
 				FAA281F31D7F963F00B70F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAA281F41D7F9F0D00B70F13 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAA281F51D7F9F0D00B70F13 /* Model.xcdatamodel */,
+			);
+			currentVersion = FAA281F51D7F9F0D00B70F13 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FAA281BB1D7F963F00B70F13 /* Project object */;
 }
