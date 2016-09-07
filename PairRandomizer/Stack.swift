@@ -37,4 +37,16 @@ class Stack {
         
         return documentsDirectory?.URLByAppendingPathComponent("db.sqlite")
     }
+    
+    static func saveToPersistentStorage() -> Bool {
+        do {
+        
+        _ = try Stack.sharedStack.managedObjectContext.save()
+        return true
+        } catch {
+            print(error)
+            return false
+        }
+        
+    }
 }
