@@ -19,6 +19,9 @@
 		FAA281FC1D7FA12900B70F13 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA281F81D7FA12900B70F13 /* Student.swift */; };
 		FAA281FD1D7FA12900B70F13 /* Subject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA281F91D7FA12900B70F13 /* Subject+CoreDataProperties.swift */; };
 		FAA281FE1D7FA12900B70F13 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA281FA1D7FA12900B70F13 /* Subject.swift */; };
+		FAA282001D7FA4B200B70F13 /* SubjectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA281FF1D7FA4B200B70F13 /* SubjectController.swift */; };
+		FAA282041D7FA55000B70F13 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA282031D7FA55000B70F13 /* Stack.swift */; };
+		FAA282091D7FAB1000B70F13 /* StudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA282081D7FAB1000B70F13 /* StudentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		FAA281F81D7FA12900B70F13 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		FAA281F91D7FA12900B70F13 /* Subject+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Subject+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		FAA281FA1D7FA12900B70F13 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		FAA281FF1D7FA4B200B70F13 /* SubjectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectController.swift; sourceTree = "<group>"; };
+		FAA282031D7FA55000B70F13 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		FAA282081D7FAB1000B70F13 /* StudentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,16 +113,12 @@
 		FAA281C51D7F963F00B70F13 /* PairRandomizer */ = {
 			isa = PBXGroup;
 			children = (
-				FAA281F71D7FA12900B70F13 /* Student+CoreDataProperties.swift */,
-				FAA281F81D7FA12900B70F13 /* Student.swift */,
-				FAA281F91D7FA12900B70F13 /* Subject+CoreDataProperties.swift */,
-				FAA281FA1D7FA12900B70F13 /* Subject.swift */,
-				FAA281C61D7F963F00B70F13 /* AppDelegate.swift */,
-				FAA281C81D7F963F00B70F13 /* ViewController.swift */,
-				FAA281F41D7F9F0D00B70F13 /* Model.xcdatamodeld */,
-				FAA281CA1D7F963F00B70F13 /* Main.storyboard */,
+				FAA282021D7FA4DE00B70F13 /* Model Objects */,
+				FAA282011D7FA4CC00B70F13 /* Model Controller */,
+				FAA282051D7FA56400B70F13 /* Core */,
+				FAA282061D7FA58100B70F13 /* ViewControllers */,
+				FAA282071D7FA59300B70F13 /* Storyboards */,
 				FAA281CD1D7F963F00B70F13 /* Assets.xcassets */,
-				FAA281CF1D7F963F00B70F13 /* LaunchScreen.storyboard */,
 				FAA281D21D7F963F00B70F13 /* Info.plist */,
 			);
 			path = PairRandomizer;
@@ -138,6 +140,53 @@
 				FAA281E81D7F963F00B70F13 /* Info.plist */,
 			);
 			path = PairRandomizerUITests;
+			sourceTree = "<group>";
+		};
+		FAA282011D7FA4CC00B70F13 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAA281FF1D7FA4B200B70F13 /* SubjectController.swift */,
+				FAA282081D7FAB1000B70F13 /* StudentController.swift */,
+			);
+			name = "Model Controller";
+			sourceTree = "<group>";
+		};
+		FAA282021D7FA4DE00B70F13 /* Model Objects */ = {
+			isa = PBXGroup;
+			children = (
+				FAA281F41D7F9F0D00B70F13 /* Model.xcdatamodeld */,
+				FAA281F71D7FA12900B70F13 /* Student+CoreDataProperties.swift */,
+				FAA281F81D7FA12900B70F13 /* Student.swift */,
+				FAA281F91D7FA12900B70F13 /* Subject+CoreDataProperties.swift */,
+				FAA281FA1D7FA12900B70F13 /* Subject.swift */,
+			);
+			name = "Model Objects";
+			sourceTree = "<group>";
+		};
+		FAA282051D7FA56400B70F13 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FAA282031D7FA55000B70F13 /* Stack.swift */,
+				FAA281C61D7F963F00B70F13 /* AppDelegate.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FAA282061D7FA58100B70F13 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAA281C81D7F963F00B70F13 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FAA282071D7FA59300B70F13 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FAA281CA1D7F963F00B70F13 /* Main.storyboard */,
+				FAA281CF1D7F963F00B70F13 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,11 +321,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA281FD1D7FA12900B70F13 /* Subject+CoreDataProperties.swift in Sources */,
+				FAA282041D7FA55000B70F13 /* Stack.swift in Sources */,
 				FAA281C91D7F963F00B70F13 /* ViewController.swift in Sources */,
 				FAA281FE1D7FA12900B70F13 /* Subject.swift in Sources */,
 				FAA281C71D7F963F00B70F13 /* AppDelegate.swift in Sources */,
+				FAA282091D7FAB1000B70F13 /* StudentController.swift in Sources */,
 				FAA281FB1D7FA12900B70F13 /* Student+CoreDataProperties.swift in Sources */,
 				FAA281FC1D7FA12900B70F13 /* Student.swift in Sources */,
+				FAA282001D7FA4B200B70F13 /* SubjectController.swift in Sources */,
 				FAA281F61D7F9F0D00B70F13 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
